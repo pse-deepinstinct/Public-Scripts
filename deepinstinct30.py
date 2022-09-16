@@ -1,6 +1,7 @@
 # Deep Instinct v3 REST API Wrapper for Python
-# Patrick Van Zandt
-#
+# Created by: Patrick Van Zandt
+# Maintained and updated by Deep Instinct Professional Services
+# 
 # Compatibility:
 # -Deep Instinct D-Appliance versions 3.0.x, 3.1.x, 3.2.x, 3.3.x, and 3.4.x
 # -Written and tested using a Python 3.8.3 instance installed by Anaconda
