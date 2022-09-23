@@ -7,7 +7,7 @@
 # -Written and tested using a Python 3.8.3 instance installed by Anaconda
 #
 # Suggested Usage:
-# 1. Save this file as deepinstinct30.py in the same directory as your code
+# 1. Save this file as deepinstinct3.py in the same directory as your code
 # 2. Include "import deepinstinct3 as di" at the top of your code
 # 3. Set/modify the DI server name like this: di.fqdn = 'SERVER-NAME'
 # 4. Set/modify the DI REST API key like this: di.key = 'API-KEY'
