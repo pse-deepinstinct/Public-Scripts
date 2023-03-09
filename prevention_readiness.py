@@ -8,9 +8,19 @@
 # approach to identify devices currently in detection mode that are ready
 # to move to prevention mode and to optionally move them to prevention groups.
 # Source data showing the analysis is written to disk in Excel format.
-
-# This script is provided as-is and with no warranty. Use at your own risk.
-
+#
+# DEEP INSTINCT MAKES NO WARRANTIES OR REPRESENTATIONS REGARDING DEEP INSTINCT’S 
+# PROGRAMMING SCRIPTS. TO THE FULLEST EXTENT PERMITTED BY APPLICABLE LAW, 
+# DEEP INSTINCT DISCLAIMS ALL OTHER WARRANTIES, REPRESENTATIONS AND CONDITIONS, 
+# WHETHER EXPRESS, STATUTORY, OR IMPLIED, INCLUDING, BUT NOT LIMITED TO, ANY 
+# IMPLIED WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE OR 
+# NON-INFRINGEMENT, AND ANY WARRANTIES ARISING OUT OF COURSE OF DEALING OR USAGE 
+# OF TRADE. DEEP INSTINCT’S PROGRAMMING SCRIPTS ARE PROVIDED ON AN "AS IS" BASIS, 
+# WITHOUT WARRANTY OF ANY KIND, AND DEEP INSTINCT DISCLAIMS ALL OTHER WARRANTIES, 
+# EXPRESS, IMPLIED OR STATUTORY, INCLUDING ANY IMPLIED WARRANTIES OF MERCHANTABILITY, 
+# FITNESS FOR A PARTICULAR PURPOSE, AND NONINFRINGEMENT.
+#
+#
 # Prerequisites:
 # 1. Python 3.8 or later
 # 2. Deep Instinct REST API Wrapper
@@ -20,8 +30,7 @@
 #    Access if you chose to move devices when running script)
 
 # Usage:
-# 1. Save latest version of deepinstinct30.py from
-#    https://github.com/pvz01/deepinstinct_rest_api_wrapper to disk
+# 1. Save latest version of deepinstinct3.py from
 # 2. Save prevention_readiness.py to the same folder on disk
 # 3. Optionally implement event filters by modifying the code below which
 #    organizes events into included_events | excluded_events
@@ -36,7 +45,7 @@
 #    answer the prompts. You can exit any time with Ctrl+C.
 
 # import required libraries
-import deepinstinct30 as di, json, datetime, pandas
+import deepinstinct3 as di, json, datetime, pandas
 from dateutil import parser
 
 #prompt for config
