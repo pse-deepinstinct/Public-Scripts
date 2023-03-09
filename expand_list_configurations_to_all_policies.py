@@ -16,7 +16,6 @@
 #
 #
 
-#import API wrapper from https://github.com/pvz01/deepinstinct_rest_api_wrapper (always download/sync latest!)
 import deepinstinct3 as di
 
 #import required Python library
