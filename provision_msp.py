@@ -1,10 +1,19 @@
 # This script provides an example of how to use the Deep Instinct REST API
-# Wrapper published at https://github.com/pvz01/deepinstinct_rest_api_wrapper
 # to provision new MSPs on a multi-tenancy server, including pre-populating
 # them with a set of policies based upon a template MSP.
 
-# This script is provided as-is and with no warranty. Use at your own risk, and
-# please test in a non-production environment first.
+#
+# DEEP INSTINCT MAKES NO WARRANTIES OR REPRESENTATIONS REGARDING DEEP INSTINCT’S 
+# PROGRAMMING SCRIPTS. TO THE FULLEST EXTENT PERMITTED BY APPLICABLE LAW, 
+# DEEP INSTINCT DISCLAIMS ALL OTHER WARRANTIES, REPRESENTATIONS AND CONDITIONS, 
+# WHETHER EXPRESS, STATUTORY, OR IMPLIED, INCLUDING, BUT NOT LIMITED TO, ANY 
+# IMPLIED WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE OR 
+# NON-INFRINGEMENT, AND ANY WARRANTIES ARISING OUT OF COURSE OF DEALING OR USAGE 
+# OF TRADE. DEEP INSTINCT’S PROGRAMMING SCRIPTS ARE PROVIDED ON AN "AS IS" BASIS, 
+# WITHOUT WARRANTY OF ANY KIND, AND DEEP INSTINCT DISCLAIMS ALL OTHER WARRANTIES, 
+# EXPRESS, IMPLIED OR STATUTORY, INCLUDING ANY IMPLIED WARRANTIES OF MERCHANTABILITY, 
+# FITNESS FOR A PARTICULAR PURPOSE, AND NONINFRINGEMENT.
+#
 
 # PREREQUISITES
 # 1. Python 3.8 or later
@@ -34,7 +43,7 @@
 
 # USAGE
 # 1. Save the latest version of both this file (provision_msp.py) and
-#    the DI API Wrapper (deepinstinct30.py) to the same folder on disk.
+#    the DI API Wrapper (deepinstinct3.py) to the same folder on disk.
 # 2. Edit this file to provide the customer name, license count, server, api
 #    key, and the id of the template msp in-line below.
 # 3. Execute the script with this command:  python provision_msp.py
