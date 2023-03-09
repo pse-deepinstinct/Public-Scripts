@@ -1,5 +1,6 @@
 # Deep Instinct v3.0 REST API Wrapper
-# Patrick Van Zandt, Principal Professional Services Engineer, Deep Instinct
+# Created by: Patrick Van Zandt
+# Maintained by Deep Instinct Professional Services
 #
 # Compatibility:
 # -Deep Instinct D-Appliance versions 3.0.x, 3.1.x, and 3.2.x
@@ -14,17 +15,18 @@
 # 6. For testing and interactive usage, I use and recommend Jupyter Notebook,
 #    which is installed as part of Anaconda (https://www.anaconda.com/)
 #
-# Disclaimer:
-# This code is provided as an example of how to build code against and interact
-# with the Deep Instinct REST API. It is provided AS-IS/NO WARRANTY. It has
-# limited error checking and logging, and likely contains defects or other
-# deficiencies. Test thoroughly first, and use at your own risk. This API
-# Wrapper is not a Deep Instinct commercial product and is not officially
-# supported, althought he underlying REST API is. This means that to report an
-# issue to tech support you must remove the API Wrapper layer and recreate the
-# problem against the raw/pure DI REST API.
+# DEEP INSTINCT MAKES NO WARRANTIES OR REPRESENTATIONS REGARDING DEEP INSTINCT’S 
+# PROGRAMMING SCRIPTS. TO THE FULLEST EXTENT PERMITTED BY APPLICABLE LAW, 
+# DEEP INSTINCT DISCLAIMS ALL OTHER WARRANTIES, REPRESENTATIONS AND CONDITIONS, 
+# WHETHER EXPRESS, STATUTORY, OR IMPLIED, INCLUDING, BUT NOT LIMITED TO, ANY 
+# IMPLIED WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE OR 
+# NON-INFRINGEMENT, AND ANY WARRANTIES ARISING OUT OF COURSE OF DEALING OR USAGE 
+# OF TRADE. DEEP INSTINCT’S PROGRAMMING SCRIPTS ARE PROVIDED ON AN "AS IS" BASIS, 
+# WITHOUT WARRANTY OF ANY KIND, AND DEEP INSTINCT DISCLAIMS ALL OTHER WARRANTIES, 
+# EXPRESS, IMPLIED OR STATUTORY, INCLUDING ANY IMPLIED WARRANTIES OF MERCHANTABILITY, 
+# FITNESS FOR A PARTICULAR PURPOSE, AND NONINFRINGEMENT.
 #
-
+#
 debug_mode = False
 
 # Import various libraries used by one or more method below.
