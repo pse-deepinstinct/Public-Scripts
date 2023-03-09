@@ -24,4 +24,17 @@ Suggested Usage:
 8. we highly recommend to reference the samples provided in this project (all files not matching deepinstinct*.py) for examples of how to import and use the API Wrapper as described above.
 
 Notes/Disclaimer:
-This repository is provided under GNU General Public License v3.0. This code is provided as a [hopefully] useful set of examples and base code to assist you with writing code to instrument your own custom logic against Deep Instinct REST APIs in both the management server (D-Appliance) and Agentless scanners, and also for education of the broader community on how to interact with RESTful APIs in general (not specific to any specific vendor). It is provided AS-IS/NO WARRANTY. This code often has limited error checking and logging, and likely contains defects or other deficiencies. Test thoroughly first, and use at your own risk. This API Wrapper is not a Deep Instinct commercial product and is not officially supported, although the underlying REST API is. If/when you encounter an issue, we suggest to remove the API Wrapper layer and recreate the problem in the simplest possible example against the raw/pure DI REST API before engaging with the vendor's tech support team.
+This repository is provided under GNU General Public License v3.0. This code is provided as a [hopefully] useful set of examples and base code to assist you with writing code to instrument your own custom logic against Deep Instinct REST APIs in both the management server (D-Appliance) and Agentless scanners, and also for education of the broader community on how to interact with RESTful APIs in general (not specific to any specific vendor). 
+
+#
+# DEEP INSTINCT MAKES NO WARRANTIES OR REPRESENTATIONS REGARDING DEEP INSTINCT’S 
+# PROGRAMMING SCRIPTS. TO THE FULLEST EXTENT PERMITTED BY APPLICABLE LAW, 
+# DEEP INSTINCT DISCLAIMS ALL OTHER WARRANTIES, REPRESENTATIONS AND CONDITIONS, 
+# WHETHER EXPRESS, STATUTORY, OR IMPLIED, INCLUDING, BUT NOT LIMITED TO, ANY 
+# IMPLIED WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE OR 
+# NON-INFRINGEMENT, AND ANY WARRANTIES ARISING OUT OF COURSE OF DEALING OR USAGE 
+# OF TRADE. DEEP INSTINCT’S PROGRAMMING SCRIPTS ARE PROVIDED ON AN "AS IS" BASIS, 
+# WITHOUT WARRANTY OF ANY KIND, AND DEEP INSTINCT DISCLAIMS ALL OTHER WARRANTIES, 
+# EXPRESS, IMPLIED OR STATUTORY, INCLUDING ANY IMPLIED WARRANTIES OF MERCHANTABILITY, 
+# FITNESS FOR A PARTICULAR PURPOSE, AND NONINFRINGEMENT.
+#
