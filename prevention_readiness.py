@@ -1,9 +1,10 @@
 # prevention_readiness.py
-# Author: Patrick Van Zandt, Principal Professional Services Engineer
-# November 2021
+# Created by: Patrick Van Zandt, Principal Professional Services Engineer
+# Mantained by Deep Instinct Profrssional Serivces
+# 
 
 # This script provides an example of how to use the Deep Instinct REST API
-# Wrapper published at https://github.com/pvz01/deepinstinct_rest_api_wrapper
+# Wrapper published at https://github.com/pse-deepinstinct/Public-Scripts
 # to programatically analyze deployment and event data and use a data-driven
 # approach to identify devices currently in detection mode that are ready
 # to move to prevention mode and to optionally move them to prevention groups.
