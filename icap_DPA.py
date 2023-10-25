@@ -110,7 +110,8 @@ def main():
     with open(args.file_path, 'rb') as f:
         content = f.read()
         result_content, header, verdict = send_icap_content(scanner_ip=args.scanner_ip, file_content=content)
-        logger.info(f'Verdict is {verdict}')
+        print(f'Verdict is {verdict}')
+        print(f'header is {header}')
 
 
 if __name__ == '__main__':
